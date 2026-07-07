@@ -1,0 +1,27 @@
+{
+  "name": "iraq-babylon-bot",
+  "version": "1.0.0",
+  "description": "بوت إدارة وحماية احترافي لسيرفر Discord - Iraq Babylon",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node handlers/deployCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "discord-html-transcripts": "^3.2.0",
+    "@discordjs/voice": "^0.17.0",
+    "libsodium-wrappers": "^0.7.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Iraq Babylon",
+  "license": "MIT"
+}
